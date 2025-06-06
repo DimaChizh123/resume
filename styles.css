@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&family=Oswald:wght@200..700&family=Press+Start+2P&family=Stalinist+One&display=swap');
+
+body {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 10px;
+    line-height: 1.6em;
+    background: #f1f1f1;
+    color: #0f141e;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-right: 20px;
+}
+
+.info {
+    display: inline-block;
+}
+
+.info-text h1 {
+    margin-bottom: 20px;
+}
+
+.info-text p {
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.info-text h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.info-text {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #555;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: blue;
+}
+
+.card {
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+header, .card {
+    margin-bottom: 15px;
+}
+
+#hobbies {
+    background: salmon;
+    padding-bottom: 2px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    color: #222;
+    margin-bottom: 3px;
+}
+
+#games {
+    background: violet;
+}
+
+table {
+    width: 50%;
+    text-align: left;
+}
+
+table thead th {
+    padding-bottom: 5px;
+}
+
+table tbody td {
+    color: #222;
+}
+
+table tbody td:nth-child(2), table tbody td:nth-child(3) {
+    color: #333;
+}
+
+#contacts h1 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #222;
+}
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+.form-row .form-group {
+    display: inline-block;
+    margin-right: 20px;
+    /* width: 50%; */
+    width: calc(50% - 20px);
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: "Press Start 2P", sans-serif;
+}
+
+.btn {
+    background: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 10px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: orange;
+}
+
+@media (max-width: 720px) {
+    .container {
+        max-width: 720px;
+        margin: auto;
+    }
+    
+    header {
+        margin: auto;
+    }
+
+    .info {
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+
+    .form-row .form-group {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
